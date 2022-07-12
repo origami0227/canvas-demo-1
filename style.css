@@ -3,7 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    overflow: hidden;
+}
 #canvas {
-    height: 100vh;/*和屏幕一样高*/
-    border: 1px solid red;
+    /* height: 100vh;和屏幕一样高 */
+    /* width: 100vw;和屏幕一样宽 */
+    display: block;
 }
